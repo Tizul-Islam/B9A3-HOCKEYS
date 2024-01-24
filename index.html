@@ -192,7 +192,8 @@
                         </div>
                     </div>
                     <div class="card w-full bg-base-100 shadow-xl image-full basis-1/4 h-[450]">
-                        <figure><img src="/Images/3.png" class="w-full" alt="Shoes" /></figure>
+                        <figure> <img src="/Images/3.png" class="w-full" alt="Shoes" /></figure>
+
                         <div class="card-body pe-30 pt-40 pb-14 px-14">
                             <h2 class="card-title font-bold text-4xl">Teenager Program</h2>
                             <p class="text-2xl">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
@@ -635,38 +636,64 @@
 
         <section>
             <div class="send-message flex gap-10 pb-20">
-                
-            <div class="address bg-slate-500 rounded-lg p-10 w-[600px]  h-[800px]">
-                <div class="call bg-[#BCDEDD] rounded-lg ">
-                    <img src="/Images/Group 1171275317.png" alt="">
-                    <h4>Phone:</h4>
-                    <span>(+62) 123-321-543</span>
-                </div>
-                <div class="message bg-[#FDDD5F] rounded-lg">
-                    <img src="/Images/Group 1171275318.png" alt="">
-                    <h4>Email:</h4>
-                    <span>hockey@gmail.com</span>
-                </div>
-                <div class="map bg-[#629cf3] rounded-lg ">
-                    <img src="/Images/Group 1171275321.png" alt="">
-                    <h4>Location:</h4>
-                    <span>151/1 Bonnani</span>
-                </div>
-            </div>
-            <div class="input-text bg-orange-300 rounded-lg p-10 w-[900px]">
 
-                <!-- xs -->
-                <input type="text" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" />
-                <!-- sm -->
-                <input type="text" placeholder="Type here" class="input input-bordered input-sm w-full max-w-xs" />
-                <!-- md -->
-                <input type="text" placeholder="Type here" class="input input-bordered input-md w-full max-w-xs" />
-                <!-- lg -->
-                <input type="text" placeholder="Type here" class="input input-bordered input-lg w-full max-w-xs" />
-                <textarea class="textarea textarea-info" placeholder="Bio"></textarea>
-                <button class="btn btn-wide">Send Message</button>
-            </div>
-            
+                <div class="address rounded-2xl p-12 w-[600px]  h-[900px] grid gap-10 border-2">
+                    <div class="call bg-[#f8fdf0] rounded-lg  p-10 pb-10">
+                        <img class="pb-10" src="/Images/Group 1171275317.png" alt="">
+                        <h4 class="text-xl">Phone:</h4>
+                        <span class="font-bold text-2xl">(+62) 123-321-543</span>
+                    </div>
+                    <div class="message bg-[#fffcef] rounded-lg p-10 ">
+                        <img class="pb-10" src="/Images/Group 1171275318.png" alt="">
+                        <h4 class="text-xl">Email:</h4>
+                        <span class="font-bold text-2xl">hockey@gmail.com</span>
+                    </div>
+                    <div class="map bg-[#eff5fe] rounded-lg p-10">
+                        <img class="pb-10" src="/Images/Group 1171275321.png" alt="">
+                        <h4 class="text-xl">Location:</h4>
+                        <span class="font-bold text-2xl">151/1 Bonnani</span>
+                    </div>
+                </div>
+                <div class=" rounded-lg  w-[900px]">
+                    <div class="input-text ">
+                        <div class=" grid grid-cols-2 gap-5">
+                            <div class="pb-4 ">
+                                <!-- xs -->
+                                <h2 class="font-bold text-2xl pb-5">Your Name</h2>
+                                <input type="text" placeholder="Enter the full name"
+                                    class="input input-bordered input-lg w-full max-w-md  bg-[#f8f8f8] border-none" />
+                            </div>
+                            <div class="pb-4 ">
+                                <!-- sm -->
+                                <h2 class="font-bold text-2xl pb-5">Your Email</h2>
+                                <input type="text" placeholder="Enter the email"
+                                    class="input input-bordered input-lg w-full max-w-md bg-[#f8f8f8] border-none" />
+                            </div>
+                            <div class="pb-4 ">
+                                <!-- md -->
+                                <h2 class="font-bold text-2xl pb-5">Subject</h2>
+                                <input type="text" placeholder="Enter your subject"
+                                    class="input input-bordered input-lg w-full max-w-md bg-[#f8f8f8] border-none" />
+                            </div>
+                            <div class="pb-4  ">
+                                <!-- lg -->
+                                <h2 class="font-bold text-2xl pb-5">Phone Number</h2>
+                                <input type="text" placeholder="Enter the phone number"
+                                    class="input input-bordered input-lg w-full max-w-md bg-[#f8f8f8]  border-none" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="pd-8 pt-4">
+                        <h2 class="font-bold text-2xl pb-5">Message</h2>
+                    <textarea class="textarea textarea-info w-full h-[430px]  border-none bg-[#f8f8f8]" placeholder="Write your message"></textarea>
+                    <div class="pt-10">
+                        <button class=" h-[75px] btn bg-btn-primary text-xl border-none font-bold text-white w-full ">Send Message</button>
+                    </div>
+                    </div>
+                </div>
+
+
             </div>
         </section>
 
@@ -675,7 +702,7 @@
 
 
         <section class="pb-20 ">
-            <div class="social pb-20 justify-center text-center border-ra bg-slate-400 p-10 rounded-lg">
+            <div class="social pb-20 justify-center text-center border-ra bg-[#f8f8f8] p-10 rounded-lg">
                 <h3 class=" font-bold text-2xl pb-5">Social Media</h3>
                 <img class=" absolute right-[46%]" src="/Images/Social.svg" alt="">
 
